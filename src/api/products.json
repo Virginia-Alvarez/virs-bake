@@ -1,0 +1,178 @@
+[
+  {
+    "id": 1,
+    "name": "Croissant",
+    "description": "Delicioso croissant de mantequilla recién horneado.",
+    "price": 2.5,
+    "image": "https://cdn.pixabay.com/photo/2014/12/21/23/28/croissant-575813_960_720.jpg",
+    "category": ["bollería"]
+  },
+  {
+    "id": 2,
+    "name": "Muffin de Arándanos",
+    "description": "Muffin esponjoso con arándanos frescos y un toque de vainilla.",
+    "price": 3.0,
+    "image": "https://cdn.pixabay.com/photo/2016/11/29/03/36/blueberry-muffin-1869653_960_720.jpg",
+    "category": ["pasteles", "bollería"]
+  },
+  {
+    "id": 3,
+    "name": "Tarta de Manzana",
+    "description": "Tarta clásica con relleno de manzana y canela.",
+    "price": 15.0,
+    "image": "https://cdn.pixabay.com/photo/2019/11/20/20/44/apple-pie-4642820_960_720.jpg",
+    "category": ["tartas"]
+  },
+  {
+    "id": 4,
+    "name": "Brownie",
+    "description": "Brownie húmedo de chocolate con nueces.",
+    "price": 2.8,
+    "image": "https://cdn.pixabay.com/photo/2015/05/15/14/30/brownie-768884_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 5,
+    "name": "Macarons",
+    "description": "Coloridos macarons franceses de almendra en varios sabores.",
+    "price": 1.5,
+    "image": "https://cdn.pixabay.com/photo/2015/04/08/13/13/macarons-712974_960_720.jpg",
+    "category": ["postres", "galletas"]
+  },
+  {
+    "id": 6,
+    "name": "Tarta de Queso",
+    "description": "Tarta de queso cremosa con base de galleta.",
+    "price": 20.0,
+    "image": "https://cdn.pixabay.com/photo/2016/10/27/22/52/cheesecake-1772056_960_720.jpg",
+    "category": ["tartas"]
+  },
+  {
+    "id": 7,
+    "name": "Tiramisú",
+    "description": "Postre italiano con capas de mascarpone y café.",
+    "price": 18.0,
+    "image": "https://cdn.pixabay.com/photo/2018/03/30/23/10/tiramisu-3279512_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 8,
+    "name": "Donut Glaseado",
+    "description": "Donut suave con glaseado dulce.",
+    "price": 1.2,
+    "image": "https://cdn.pixabay.com/photo/2016/11/18/21/15/donut-1836808_960_720.jpg",
+    "category": ["bollería"]
+  },
+  {
+    "id": 9,
+    "name": "Eclair",
+    "description": "Éclair relleno de crema y cubierto de chocolate.",
+    "price": 2.0,
+    "image": "https://cdn.pixabay.com/photo/2017/01/06/15/28/eclair-1950570_960_720.jpg",
+    "category": ["postres", "bollería"]
+  },
+  {
+    "id": 10,
+    "name": "Tarta Red Velvet",
+    "description": "Tarta roja con glaseado de queso crema.",
+    "price": 22.0,
+    "image": "https://cdn.pixabay.com/photo/2017/11/10/17/43/red-velvet-2937150_960_720.jpg",
+    "category": ["tartas"]
+  },
+  {
+    "id": 11,
+    "name": "Galleta con Chispas de Chocolate",
+    "description": "Galleta suave con chispas de chocolate.",
+    "price": 1.5,
+    "image": "https://cdn.pixabay.com/photo/2018/03/26/20/56/cookies-3262924_960_720.jpg",
+    "category": ["galletas"]
+  },
+  {
+    "id": 12,
+    "name": "Panettone",
+    "description": "Dulce italiano con frutas confitadas.",
+    "price": 25.0,
+    "image": "https://cdn.pixabay.com/photo/2020/12/06/22/41/panettone-5809678_960_720.jpg",
+    "category": ["bollería"]
+  },
+  {
+    "id": 13,
+    "name": "Cupcake de Fresa",
+    "description": "Cupcake decorado con crema de fresa.",
+    "price": 3.5,
+    "image": "https://cdn.pixabay.com/photo/2016/03/05/19/02/cupcakes-1238429_960_720.jpg",
+    "category": ["pasteles"]
+  },
+  {
+    "id": 14,
+    "name": "Pastel de Chocolate",
+    "description": "Pastel húmedo de chocolate con glaseado.",
+    "price": 18.0,
+    "image": "https://cdn.pixabay.com/photo/2016/03/17/15/23/chocolate-cake-1263001_960_720.jpg",
+    "category": ["pasteles"]
+  },
+  {
+    "id": 15,
+    "name": "Carrot Cake",
+    "description": "Pastel de zanahoria con glaseado de queso crema.",
+    "price": 20.0,
+    "image": "https://cdn.pixabay.com/photo/2021/09/28/13/34/carrot-cake-6663605_960_720.jpg",
+    "category": ["pasteles"]
+  },
+  {
+    "id": 16,
+    "name": "Churros",
+    "description": "Churros crujientes con azúcar y canela.",
+    "price": 4.0,
+    "image": "https://cdn.pixabay.com/photo/2020/01/20/14/28/churros-4779945_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 17,
+    "name": "Pastel de Limón",
+    "description": "Pastel ligero con sabor a limón y glaseado.",
+    "price": 15.0,
+    "image": "https://cdn.pixabay.com/photo/2019/06/07/19/41/lemon-cake-4253358_960_720.jpg",
+    "category": ["pasteles"]
+  },
+  {
+    "id": 18,
+    "name": "Profiteroles",
+    "description": "Pequeñas bolas de masa rellenas de crema y cubiertas de chocolate.",
+    "price": 5.0,
+    "image": "https://cdn.pixabay.com/photo/2015/09/22/19/02/profiteroles-952626_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 19,
+    "name": "Milhojas",
+    "description": "Postre de capas de hojaldre y crema pastelera.",
+    "price": 4.5,
+    "image": "https://cdn.pixabay.com/photo/2018/03/27/01/13/mille-feuille-3264764_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 20,
+    "name": "Bagel Dulce",
+    "description": "Bagel suave con toque de canela y pasas.",
+    "price": 3.0,
+    "image": "https://cdn.pixabay.com/photo/2018/02/07/17/49/bagel-3133463_960_720.jpg",
+    "category": ["bollería"]
+  },
+  {
+    "id": 21,
+    "name": "Postre de Mango",
+    "description": "Dulce tropical con mango fresco.",
+    "price": 6.0,
+    "image": "https://cdn.pixabay.com/photo/2018/03/27/19/24/mango-3265042_960_720.jpg",
+    "category": ["postres"]
+  },
+  {
+    "id": 22,
+    "name": "Rosquillas",
+    "description": "Rosquillas horneadas con un toque dulce.",
+    "price": 4.5,
+    "image": "https://cdn.pixabay.com/photo/2016/02/10/16/37/doughnuts-1192313_960_720.jpg",
+    "category": ["bollería"]
+  }
+]
