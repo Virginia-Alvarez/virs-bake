@@ -1,0 +1,67 @@
+@import './var.scss';
+
+.headerHome {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: $primary_color;
+    background-size: cover;
+    background-position: center;
+}
+.rightSection {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+
+.searchBar {
+    display: flex;
+    align-items: center;
+    background: white;
+    border-radius: 20px;
+    padding: 5px 10px;
+    border: 1px solid $third_color;
+
+    input {
+        border: none;
+        outline: none;
+        padding: 5px;
+        font-size: 1rem;
+        width: 200px;
+    }
+
+    button {
+        background: none;
+        border: none;
+        cursor: pointer;
+        color: $color_btn;
+        font-size: 1.2rem;
+    }
+}
+.navIcons {
+    display: flex;
+    gap: 15px;
+}
+
+.iconButton {
+    background: none;
+    border: none;
+    cursor: pointer;
+
+    &:focus {
+        outline: 2px solid #fa924f;
+        border-radius: 5px;
+    }
+}
+
+.iconUser, .iconCart {
+    font-size: 1.5rem;
+    color: #fa924f;
+    transition: transform 0.2s ease-in-out;
+
+    &:hover {
+        transform: scale(1.1);
+    }
+}

@@ -17,23 +17,33 @@
 .mainLanding{
     height: 100dvh;
     display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
+    flex-direction: row;
+    justify-content: space-around;
     align-items: center;
-    background-color: #fff5f7
+    background-color: $main_color;
+}
+
+.btnBox{
+    display: inherit;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    gap: 40%;
 }
 
 .titleLanding{
     color: $third_color;
-    font-size: 35px;
+    font-size: 40px;
     font-weight: bold;
+    text-transform: capitalize;
 
 }
 
 .btnLanding{
     background: linear-gradient(45deg, #eac8ca, #f9a8c4);
     color: $color_btn;
-    font-size: 18px;
+    font-size: 20px;
     font-weight: bold;
     padding: 15px 35px;
     border: none;
@@ -45,6 +55,7 @@
     display: inline-block;
     position: relative;
     overflow: hidden;
+    text-transform: capitalize;
 }
 
 .btnLanding:hover::before {
@@ -61,8 +72,16 @@
 
 .paragraphLanding{
     color: $third_color;
-    font-size: 24px;
+    font-size: 21px;
     font-weight: bold;
+    height: 200px;
+    width: 200px;
+    background-color: $secondary_color;
+    border-radius: 100px;
+    align-content: center;
+    text-align: center;
+    text-transform: capitalize;
+    transform:rotate(20deg) ;
 }
 
 

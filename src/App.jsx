@@ -4,9 +4,6 @@ import Home from './componets/Home';
 import './styles/app.scss';
 
 
-
-
-
 function App() {
 
 
