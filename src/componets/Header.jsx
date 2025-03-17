@@ -2,11 +2,12 @@ import logo from '../images/logo.png';
 import '../styles/app.scss';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faUser, faCartShopping, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Link } from "react-router-dom";
 
 export default function Header() {
     return (
         <header className="headerHome">
-            <img src={logo} alt="Logo de Virs bakes" className="logoImg" />
+            <Link to="/"><img src={logo} alt="Logo de Virs bakes" className="logoImg" /></Link>
             <div className='rightSection'>
                 <form className="searchBar">
                     <input type="text" placeholder='buscar'/>
